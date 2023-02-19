@@ -53,6 +53,13 @@ h1, h2, h3 {
   height: 300px;
 }
 
+.picture-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .about {
   background-color: lightpink;
   height: 100vh;
