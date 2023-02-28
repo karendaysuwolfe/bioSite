@@ -153,25 +153,27 @@ h1, h2, h3 {
   color: white;
 }
 
-.right-side {
+.left-side {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
   top: 50%;
-  right: 20px;
+  left: 20px;
   transform: translateY(-50%);
+  border: 1px solid black;
+  padding: 10px;
 }
 
-.right-side a {
+.left-side a {
   text-decoration: none;
   color: black;
   margin-bottom: 20px;
 }
 
-.right-side a:hover {
-  color: white;
+.left-side a:hover {
+  color: blue;
 }
 
 .top-section {
